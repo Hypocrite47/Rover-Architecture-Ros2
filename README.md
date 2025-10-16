@@ -194,3 +194,4 @@ urc_rover/
 │   ├── autonomous_nav.launch.py
 ```
 (A BUG IS YET TO FIXED. EVERYTHINGS FINE:D JUST THE TURTLE GETS STUCK A THE START)
+(Will be Fixed within 12hours)
