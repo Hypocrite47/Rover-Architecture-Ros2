@@ -89,7 +89,33 @@ LED STATUS: TARGET_REACHED (Green)
 **Result:**
 ```
 Stuck at navigation (need to fix the bug)
-Video: 
+```
+### Servicing Mission
+Terminal 01
+```bash
+ros2 launch urc_rover rover_system.launch.py mission_mode:=servicing
+```
+Terminal 02
+```bash
+ros2 run urc_rover servicing_mission
+```
+
+**What it does:**
+```
+- Services 3 equipment locations
+- Shows maintenance tasks being performed
+```
+
+**Expected Output:**
+```
+LED STATUS: AUTONOMOUS (Red)
+[autonomous_nav]: Waypoint 1/4: GNSS_Point_1
+[autonomous_nav]: Reached GNSS_Point_1!
+LED STATUS: TARGET_REACHED (Green)
+```
+**Result:**
+```
+Stuck at navigation (need to fix the bug)
 ```
 
 
@@ -109,11 +135,12 @@ ros2 run urc_rover delivery_mission
 - Delivers to destination
 - Uses ROS2 Action Server/Client
 ```
+
+
 **Result:**
 
 ```
 Stuck at navigation (need to fix the bug)
-Video: 
 ```
 ---
 
