@@ -2,7 +2,7 @@
 
 # URC Rover System - ROS2 Jazzy
 
-A complete ROS2 implementation simulating University Rover Challenge (URC) 2026 missions using Turtlesim.
+A Basic ROS2 implementation simulating (URC) 2026 missions using Turtlesim.
 ---
 
 ## System Overview
