@@ -5,6 +5,7 @@
 A Basic ROS2 implementation simulating (URC) 2026 missions using Turtlesim.
 ---
 
+
 ## System Overview
 
 This project simulates a Mars rover completing four mission types:
@@ -106,13 +107,6 @@ ros2 run urc_rover servicing_mission
 - Shows maintenance tasks being performed
 ```
 
-**Expected Output:**
-```
-LED STATUS: AUTONOMOUS (Red)
-[autonomous_nav]: Waypoint 1/4: GNSS_Point_1
-[autonomous_nav]: Reached GNSS_Point_1!
-LED STATUS: TARGET_REACHED (Green)
-```
 **Result:**
 ```
 Stuck at navigation (need to fix the bug)
@@ -198,3 +192,5 @@ urc_rover/
 │   ├── rover_system.launch.py
 │   ├── science_mission.py
 │   ├── autonomous_nav.launch.py
+```
+(A BUG IS YET TO FIXED. EVERYTHINGS FINE:D JUST THE TURTLE GETS STUCK A THE START)
