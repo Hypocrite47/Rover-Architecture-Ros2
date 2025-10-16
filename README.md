@@ -25,7 +25,7 @@ This project simulates a Mars rover completing four mission types:
 ---
 
 ### 2. Unzip urc_rover_ws.zip
-
+---
 
 ### 3. Build Workspace
 ```bash
