@@ -118,7 +118,7 @@ Video:
 ```
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 
 ### Node Graph
@@ -150,7 +150,7 @@ Video:
 | `/led_status`             | `String`    | missions       | led_indicator  | LED commands      |
 
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 urc_rover/
