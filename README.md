@@ -5,7 +5,7 @@
 A complete ROS2 implementation simulating University Rover Challenge (URC) 2026 missions using Turtlesim.
 ---
 
-## 🎯 System Overview
+## System Overview
 
 This project simulates a Mars rover completing four mission types:
 1. **Science Mission**: Navigate to sites, capture images with GNSS data.
@@ -36,7 +36,7 @@ source install/setup.bash
 
 ---
 
-## 🚀 Running Missions
+## Running Missions
 
 ### Science Mission
 
