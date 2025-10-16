@@ -45,11 +45,12 @@ ros2 launch urc_rover science_mission.launch.py
 ```
 
 **What it does:**
+```
 - Turtle navigates to 3 geological sites
 - Captures images at each location
 - Records GNSS coordinates
 - Saves data to `data/images/`
-
+```
 **Expected Output:**
 ```
 [science_mission]: Starting Science Mission...
@@ -72,10 +73,12 @@ ros2 launch urc_rover autonomous_nav.launch.py
 ```
 
 **What it does:**
+```
 - Visits 4 waypoints autonomously
 - 2 GNSS-based waypoints
 - 2 Vision-based targets
 - LED indicator changes (Red→Green→Red)
+```
 
 **Expected Output:**
 ```
@@ -101,11 +104,12 @@ ros2 run urc_rover delivery_mission
 ```
 
 **What it does:**
+```
 - Navigates to pickup location
 - Picks up package
 - Delivers to destination
 - Uses ROS2 Action Server/Client
-
+```
 **Result:**
 
 ```
