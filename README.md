@@ -63,7 +63,6 @@ ros2 launch urc_rover science_mission.launch.py
 
 ```
 Stuck at navigation (need to fix the bug)
-Video: 
 ```
 
 
