@@ -57,7 +57,7 @@ ros2 launch urc_rover science_mission.launch.py
 [science_mission]: --- Visiting Site_Alpha ---
 [navigation_controller]: Going to (2.0, 2.0)
 [science_mission]: Arrived at Site_Alpha!
-[camera_handler]: Saved: science_Site_Alpha_20250101_120000.jpg
+[camera_handler]: Saved: site01.jpg
 ```
 **Result:**
 
