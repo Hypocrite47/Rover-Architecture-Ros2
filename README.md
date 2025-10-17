@@ -25,7 +25,7 @@ This project simulates a Mars rover completing four mission types:
 - **Hardware**: Webcam (optional - uses dummy camera if not available)
 
 ---
-HOW TO USE ?
+##HOW TO USE ?
 
 1. Download the repository as Zip or  Use the command below:
 ```bash
@@ -46,15 +46,6 @@ After building, source the local setup file so ROS 2 can find your packages:
 ```bash
 source install/setup.bash
 ```
----
-
-### 3. Build Workspace
-```bash
-cd ~/urc_rover_ws
-colcon build
-source install/setup.bash
-```
-
 ---
 
 ## Running Missions
