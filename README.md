@@ -25,8 +25,27 @@ This project simulates a Mars rover completing four mission types:
 - **Hardware**: Webcam (optional - uses dummy camera if not available)
 
 ---
+HOW TO USE ?
 
-### 2. Unzip urc_rover_ws.zip
+1. Download the repository as Zip or  Use the command below:
+```bash
+git clone https://github.com/Hypocrite47/urc_rover_ws.git
+```
+
+2. Navigate to the workspace
+```bash
+cd urc_rover_ws
+```
+3. Build the workspace
+```bash
+colcon build
+```
+4. Source the workspace
+After building, source the local setup file so ROS 2 can find your packages:
+
+```bash
+source install/setup.bash
+```
 ---
 
 ### 3. Build Workspace
@@ -43,6 +62,7 @@ source install/setup.bash
 ### Science Mission
 
 ```bash
+source install/setup.bash
 ros2 launch urc_rover science_mission.launch.py
 ```
 
@@ -64,6 +84,7 @@ ros2 launch urc_rover science_mission.launch.py
 
 ### Autonomous Navigation
 ```bash
+source install/setup.bash
 ros2 launch urc_rover autonomous_nav.launch.py
 ```
 
@@ -86,10 +107,12 @@ LED STATUS: TARGET_REACHED (Green)
 ### Servicing Mission
 Terminal 01
 ```bash
+source install/setup.bash
 ros2 launch urc_rover rover_system.launch.py mission_mode:=servicing
 ```
 Terminal 02
 ```bash
+source install/setup.bash
 ros2 run urc_rover servicing_mission
 ```
 
@@ -103,9 +126,11 @@ ros2 run urc_rover servicing_mission
 ### Delivery Mission
 ```bash
 # Terminal 1: Start system
+source install/setup.bash
 ros2 launch urc_rover rover_system.launch.py mission_mode:=delivery
 
 # Terminal 2: Run delivery
+source install/setup.bash
 ros2 run urc_rover delivery_mission
 ```
 
