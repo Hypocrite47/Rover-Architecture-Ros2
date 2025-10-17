@@ -4,8 +4,11 @@
 
 A Basic ROS2 implementation simulating (URC) 2026 missions using Turtlesim.
 ---
+
 (UPDATE      : STUCK AT STARTING FIXED)
+
 (NEW ISSUE   : FREEZES AT 2nd WAYPOINT)
+
 ---
 ## System Overview
 
