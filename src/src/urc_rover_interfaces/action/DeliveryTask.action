@@ -1,0 +1,11 @@
+float32 pickup_x
+float32 pickup_y
+float32 delivery_x
+float32 delivery_y
+string object_id
+---
+bool success
+string message
+---
+string status
+float32 progress
