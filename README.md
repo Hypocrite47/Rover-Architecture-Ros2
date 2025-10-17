@@ -1,7 +1,5 @@
 # Rover-Architecture-Ros2
-
 # URC Rover System - ROS2 Jazzy
-
 A Basic ROS2 implementation simulating (URC) 2026 missions using Turtlesim.
 ---
 
