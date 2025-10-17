@@ -3,11 +3,12 @@
 ## A Basic ROS2 implementation simulating (URC) 2026 missions using Turtlesim.
 ---
 
-(UPDATE      : STUCK AT STARTING FIXED)
-
-(NEW ISSUE   : FREEZES AT 2nd WAYPOINT)
-
+- (UPDATE      : STUCK AT STARTING FIXED)
+- (NEW ISSUE   : FREEZES AT 2nd WAYPOINT)
+- Havn't tested "ros2 param set /mission_manager mission_mode <mode>" Feature Yet
+- Misses a few more features which will be added later
 ---
+
 ## System Overview
 
 This project simulates a Mars rover completing four mission types:
