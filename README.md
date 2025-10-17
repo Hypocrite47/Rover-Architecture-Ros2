@@ -25,7 +25,7 @@ This project simulates a Mars rover completing four mission types:
 - **Hardware**: Webcam (optional - uses dummy camera if not available)
 
 ---
-##HOW TO USE ?
+## HOW TO USE ?
 
 1. Download the repository as Zip or  Use the command below:
 ```bash
