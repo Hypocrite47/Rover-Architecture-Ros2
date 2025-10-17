@@ -27,8 +27,7 @@ This project simulates a Mars rover completing four mission types:
 
 ---
 ## HOW TO USE ?
-
-1. Download the repository as Zip or  Use the command below:
+1. Use the command below:
 ```bash
 git clone https://github.com/Hypocrite47/urc_rover_ws.git
 ```
