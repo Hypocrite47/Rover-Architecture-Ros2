@@ -60,12 +60,6 @@ ros2 launch urc_rover science_mission.launch.py
 [science_mission]: Arrived at Site_Alpha!
 [camera_handler]: Saved: site01.jpg
 ```
-**Result:**
-
-```
-Stuck at navigation (need to fix the bug)
-```
-
 
 ### Autonomous Navigation
 ```bash
@@ -87,10 +81,7 @@ LED STATUS: AUTONOMOUS (Red)
 [autonomous_nav]: Reached GNSS_Point_1!
 LED STATUS: TARGET_REACHED (Green)
 ```
-**Result:**
-```
-Stuck at navigation (need to fix the bug)
-```
+
 ### Servicing Mission
 Terminal 01
 ```bash
@@ -105,11 +96,6 @@ ros2 run urc_rover servicing_mission
 ```
 - Services 3 equipment locations
 - Shows maintenance tasks being performed
-```
-
-**Result:**
-```
-Stuck at navigation (need to fix the bug)
 ```
 
 
@@ -129,14 +115,6 @@ ros2 run urc_rover delivery_mission
 - Delivers to destination
 - Uses ROS2 Action Server/Client
 ```
-
-
-**Result:**
-
-```
-Stuck at navigation (need to fix the bug)
-```
----
 
 ## Architecture
 
@@ -168,30 +146,3 @@ Stuck at navigation (need to fix the bug)
 | `/camera/capture_confirm` | `String`    | camera_handler | missions       | Confirm capture   |
 | `/gnss/fix`               | `NavSatFix` | gnss_simulator | missions       | GPS data          |
 | `/led_status`             | `String`    | missions       | led_indicator  | LED commands      |
-
-
-## Project Structure
-
-```
-urc_rover/
-├── urc_rover/
-│   ├── mission_manager.py          
-│   ├── missions/
-│   │   ├── science_mission.py    
-│   │   ├── delivery_mission.py    
-│   │   ├── autonomous_nav.py       
-│   │   └── servicing_mission.py    
-│   ├── navigation/
-│   │   └── navigation_controller.py 
-│   ├── sensors/
-│   │   ├── camera_handler.py      
-│   │   └── gnss_simulator.py    
-│   └── utils/
-│       └── led_indicator.py
-├── launch/
-│   ├── rover_system.launch.py
-│   ├── science_mission.py
-│   ├── autonomous_nav.launch.py
-```
-(A BUG IS YET TO FIXED. EVERYTHINGS FINE:D JUST THE TURTLE GETS STUCK A THE START)
-(Will be Fixed within 12hours)
